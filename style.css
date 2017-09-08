@@ -1,0 +1,166 @@
+/*  
+
+Theme Name: Tutorial
+Theme URI: http://www.test.com
+Description: This is a theme for a tutorial.
+Version: 1.0
+Author: WYB
+Author URI: http://www.test.com
+Tags: Normal, Test, Learning
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, Georgia, Sans-serif;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+    background: #ffffff;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .9;
+    text-decoration: underline;
+}
+
+.clearfix:after {
+    display: block;
+    content: '';
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+#header {
+    text-align: center;
+}
+
+.main {
+    margin: 20px;
+    overflow: hidden;
+}
+
+#container {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+#sidebar {
+    width: 25%;
+    float: right;
+    background: #f5f5f5;
+}
+
+#sidebar>ul {
+    margin: 0;
+    padding: 15px;
+    list-style: none;
+}
+
+#wp-calendar {
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+}
+
+.tips {
+    color: red;
+}
+
+
+/* 评论样式 */
+
+.comments-template {
+    margin: 10px 0 0;
+    border-top: 1px solid #ccc;
+    padding: 10px 0 0;
+}
+
+.comments-template ol {
+    margin: 0;
+    padding: 0 0 15px;
+    list-style: none;
+}
+
+.comments-template ol li {
+    margin: 10px 0 0;
+    line-height: 18px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2,
+.comments-template h3 {
+    font-family: Georgia, Sans-serif;
+    font-size: 16px;
+}
+
+.commentmetadata {
+    font-size: 12px;
+}
+
+.comments-template p.nocomments {
+    padding: 0;
+}
+
+.comments-template textarea {
+    font-family: Arial, Helvetica, Georgia, Sans-serif;
+    font-size: 12px;
+}
+
+
+/* 导航 */
+
+#navigation {
+    list-style: none;
+}
+
+#navigation>li {
+    position: relative;
+    float: left;
+    margin: 15px;
+}
+
+#navigation li .children {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    border: 1px solid yellow;
+}
+
+#navigation li .children>li {
+    padding: 5px;
+}
+
+#navigation li:hover .children {
+    display: block;
+}
+
+
+/* 文章列表 */
+
+.post {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed brown;
+}
+
+.postmetadata span {
+    margin-right: 15px;
+}
