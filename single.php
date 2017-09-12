@@ -2,7 +2,7 @@
     <div class="main">
         <!-- 容器 -->
         <div id="container">   
-            <h2>文章列表</h2>
+            <h2>文章详情</h2>
         <?php if (have_posts()): ?>
                 <?php while (have_posts()): the_post(); ?>
                 <!-- 文章 -->
